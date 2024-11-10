@@ -1,0 +1,114 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "~/.config/fastfetch/image.txt",
+    "padding": {
+      "top": 8
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    "break",
+    "title",
+    {
+      "type": "title",
+      "key": "",
+      "keyColor": "red",
+      "format": "Eduardo R. - (10101)"
+    },
+
+    {
+      "type": "title",
+      "key": "󰖟",
+      "keyColor": "red",
+      "format": "Web developer"
+    },
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────────────────────────────────────────────────────────┐",
+      "outputColor": "red"
+    },
+    "break",
+    {
+      "type": "os",
+      "key": "        ",
+      "keyColor": "yellow",
+      "format": "{pretty-name} {arch}"
+    },
+    {
+      "key": "        ",
+      "keyColor": "red",
+      "type": "uptime"
+    },
+    {
+      "key": "        ",
+      "keyColor": "magenta",
+      "type": "shell"
+    },
+    {
+      "type": "cpu",
+      "key": "    󰍛    ",
+      "keyColor": "yellow",
+      "format": "{name}"
+    },
+    {
+      "type": "memory",
+      "keyColor": "red",
+      "key": "    󰈀    "
+    },
+    {
+      "key": "        ",
+      "keyColor": "magenta",
+      "type": "swap"
+    },
+    {
+      "key": "        ",
+      "keyColor": "yellow",
+      "type": "disk",
+      "folders": "/"
+    },
+    {
+      "key": "        ",
+      "keyColor": "red",
+      "type": "battery",
+      "percent": {
+        "yellow": 30
+      }
+    },
+    {
+      "key": "    󰖟    ",
+      "keyColor": "magenta",
+      "type": "publicip",
+      "format": "{location}",
+      "timeout": 1000
+    },
+    {
+      "key": "        ",
+      "keyColor": "yellow",
+      "type": "packages"
+    },
+    {
+      "key": "    󰀘    ",
+      "keyColor": "red",
+      "type": "netio"
+    },
+    {
+      "key": "    󰃰    ",
+      "keyColor": "magenta",
+      "type": "locale"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle",
+      "paddingLeft": 17
+    }
+  ]
+}
