@@ -1,0 +1,2 @@
+# fastfetch
+Personal themes (fastfetch)
